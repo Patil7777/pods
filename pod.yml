@@ -3,6 +3,8 @@ apiVersion: V1
 kind: Pod
 metadata:
   name: my-pod
+  labels:
+    app: my-app
 spec:
   containers:
     -name: cbz-container
