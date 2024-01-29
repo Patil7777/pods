@@ -1,0 +1,13 @@
+---
+apiversion: v1
+kind: pod
+metadata:
+-name: my-pod
+spec:
+   containers:
+   -name: cbz-container
+   image: httpd
+   ports:
+   -name: http
+   containers: 80
+   protocol:TCP
