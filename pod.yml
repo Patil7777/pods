@@ -10,5 +10,5 @@ spec:
     ports:
       -name: http
       containerPort: 80
-      Protocol: TCp
+      Protocol: TCP
    ...
