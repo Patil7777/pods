@@ -24,7 +24,7 @@ metadata:
   name: cbz-service
 spec:
   selector:
-    app: cbz-app
+    app: my-app
   ports:
     - protocol: TCP
       port: 80
